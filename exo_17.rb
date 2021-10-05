@@ -8,13 +8,10 @@ while nombre > 25 || nombre < 1
 end
 
 nombre.times do |i|
-  j=i
-  k=nombre-j
-  k.times do
+  (nombre-i).times do
     print " "
   end
-  m=j*2+1
-  m.times do
+  (i*2+1).times do
     print "#"
   end
   puts " "
