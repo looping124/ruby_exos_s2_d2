@@ -1,9 +1,8 @@
 actualyear=2021
 puts "Bonjour,"
-puts "Entrez votre année de naissance"
-year = gets.chomp.to_i
-nombre = actualyear-year
+puts "Quel est ton age ?"
+age = gets.chomp.to_i
 
-nombre.times do |i|
-  puts "il y a #{nombre-i} ans vous aviez #{i} ans"
+age.times do |i|
+  puts "il y a #{age-i} ans vous aviez #{i} ans"
 end
